@@ -15,7 +15,7 @@ body {
     padding: 40px; /* Increased padding */
     border-radius: 12px; /* Slightly rounder corners */
     box-shadow: 0 0 15px rgba(0,0,0,0.1); /* Slightly bigger shadow */
-    width: 600px; /* Increased width for larger box */
+    width: 550px; /* Increased width for larger box */
 }
 
 input[type="text"] {
