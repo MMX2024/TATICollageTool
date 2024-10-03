@@ -8,14 +8,14 @@
 </head>
 <body>
     <div class="container">
-        <h1>Therapist's Portal</h1>
-        <p>Generate a unique session link for your patient.</p>
+        <h1>Welcome to our canvas space!</h1>
+        <p>Create a secure, private space and allow your patients to express their emotions through art.</p>
 
-        <!-- Button to generate session link -->
-        <button type="button" onclick="generateLink()">Create New Link</button>
-
-        <!-- Input field to display the generated link -->
-        <input type="text" id="generatedLink" readonly placeholder="Your session link will appear here">
+        <!-- Session link input field and generate button in a flex container -->
+        <div class="link-input-container">
+            <input type="text" id="generatedLink" readonly placeholder="Your session link will appear here">
+            <button type="button" onclick="generateLink()">Create New Link</button>
+        </div>
 
         <!-- Button to copy the generated link -->
         <button type="button" onclick="copyLink()">Copy Link</button>
