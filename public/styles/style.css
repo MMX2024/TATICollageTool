@@ -12,34 +12,52 @@ body {
 
 .container {
     background: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    width: 300px;
-    /* Remove the margin auto as it's handled by flexbox */
+    padding: 40px; /* Increased padding */
+    border-radius: 12px; /* Slightly rounder corners */
+    box-shadow: 0 0 15px rgba(0,0,0,0.1); /* Slightly bigger shadow */
+    width: 800px; /* Increased width for larger box */
 }
 
 input[type="text"] {
-    width: 100%;
+    width: 65%; /* Adjust width for the input field */
     padding: 10px;
+    margin-right: 10px; /* Add space between input and button */
     margin-top: 10px;
+    font-size: 16px; /* Larger text size */
 }
 
 button {
-    padding: 10px 15px;
+    padding: 10px 20px;
     margin-top: 10px;
     background-color: #6200ea;
     color: white;
     border: none;
     cursor: pointer;
+    font-size: 16px; /* Adjust button text size */
 }
 
 button:hover {
     background-color: #3700b3;
 }
 
+.link-input-container {
+    display: flex; /* Flexbox to align input and button */
+    justify-content: center; /* Center the input and button */
+    align-items: center; /* Vertically align the elements */
+}
+
 #statusMessage {
     margin-top: 20px;
     font-size: 14px;
     color: green;
+}
+
+h1 {
+    font-size: 24px; /* Adjust heading size */
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
 }
